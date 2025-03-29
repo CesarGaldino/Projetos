@@ -19,17 +19,14 @@ escolhacomputador = rand() % 3 + 1;
 
 switch (escolhajogador)
 {
-case 1:
-printf("Jogador : Pedra -");
-    break;
     case 1:
-    printf("Jogador : Pedra -");
+    printf("Jogador : Pedra - ");
         break;
         case 2:
-        printf("Jogador : Papel -");
+        printf("Jogador : Papel - ");
             break;
             case 3:
-            printf("Jogador : Tesoura -") ;   
+            printf("Jogador : Tesoura - ") ;   
                 break;
         default:
         printf("Opção Invalida\n");
@@ -52,12 +49,12 @@ if (escolhacomputador == escolhajogador)
 {
     printf("## Jogo Empatou!! ##\n");
 }
-else if (escolhajogador == 1) && (escolhacomputador==3)||
+else if ((escolhajogador == 1) && (escolhacomputador==3)||
         (escolhajogador == 2) && (escolhacomputador ==1)||
-        (escolhajogador == 3) && (escolhacomputador == 2)
+        (escolhajogador == 3) && (escolhacomputador == 2))
 
 {
-    printf("## Parabens Você Ganhou ##"\n);
+    printf("## Parabens Você Ganhou ##\n");
 }
 else{
     printf("## Você Perdeu ##\n");
