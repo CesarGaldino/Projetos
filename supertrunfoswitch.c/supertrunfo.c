@@ -24,7 +24,7 @@ printf("População: %d bilhões\n",populacao1);
 printf(" Area: %.2f km²\n", area1);
 printf(" PIB: %.2f \n",pib1);
 printf(" Pontos Turisticos: %d \n",pontos1);
-printf("Densidade: %.2f \n",&densidade1),
+printf("Densidade: %.2f \n",densidade1),
 
 printf("Carta 2 \n");
 printf("Pais : Argentina \n");
@@ -32,7 +32,7 @@ printf("População: %d bilhões\n",populacao2);
 printf(" Area: %.2f km²\n", area2);
 printf(" PIB: %.2f \n",pib2);
 printf(" Pontos Turisticos: %d \n",pontos2);
-printf("Densidade: %.2f \n",&densidade2);
+printf("Densidade: %.2f \n",densidade2);
 
 printf("### Escolha uma das Opções : ###\n");
 printf("1. População\n");
@@ -101,10 +101,11 @@ case 4:
     {
         printf("### Carta 2 Argentina Venceu ###");
     }
+    break;
     case 5:
      printf("*** Densidade Carta 1 x Densidade Carta 2 ***\n");
-     printf("Densidade Carta 1: %.2f \n",&densidade1);
-     printf("Densidade Carta 2: %.2f \n",&densidade2);
+     printf("Densidade Carta 1: %.2f \n",densidade1);
+     printf("Densidade Carta 2: %.2f \n",densidade2);
 
      
      if (densidade1 < densidade2){
