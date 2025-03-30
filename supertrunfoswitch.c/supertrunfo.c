@@ -13,6 +13,8 @@ float pib1 = 2174;
 float pib2 = 644;
 int pontos1 = 50000;
 int pontos2 = 20000;
+float densidade1= (float) populacao1 / area1;
+float densidade2= (float) populacao2 / area2;
 int opcoes;
 
 printf("** Cartas Jogo Super Trunfo ** \n");
@@ -22,6 +24,7 @@ printf("População: %d bilhões\n",populacao1);
 printf(" Area: %.2f km²\n", area1);
 printf(" PIB: %.2f \n",pib1);
 printf(" Pontos Turisticos: %d \n",pontos1);
+printf("Densidade: %.2f \n",&densidade1),
 
 printf("Carta 2 \n");
 printf("Pais : Argentina \n");
@@ -29,12 +32,14 @@ printf("População: %d bilhões\n",populacao2);
 printf(" Area: %.2f km²\n", area2);
 printf(" PIB: %.2f \n",pib2);
 printf(" Pontos Turisticos: %d \n",pontos2);
+printf("Densidade: %.2f \n",&densidade2),
 
 printf("### Escolha uma das Opções : ###\n");
 printf("1. População\n");
 printf("2. Area\n");
 printf("3. Pib\n");
 printf("4. Pontos Turisticos\n");
+printf("5. Densidade\n");
 scanf("%d",&opcoes);
 
 switch (opcoes)
@@ -85,6 +90,18 @@ case 4:
     {
         printf("### Carta 2 Venceu ###");
     }
+    case 5:
+     printf("Densidade Carta 1 x Densidade Carta 2\n");
+     
+     if (densidade1 > densidade2){
+        printf("### Carta 1 Venceu!! ###");
+    } else if (densidade1 == densidade2){
+        printf("### Houve Empate!! ###");
+    }else
+    {
+        printf("### Carta 2 Venceu ###");
+    }
+    break;
 default:
      printf("**Opção Invalida***\n");
     break;
