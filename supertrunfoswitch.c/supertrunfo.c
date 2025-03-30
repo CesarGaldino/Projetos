@@ -41,59 +41,53 @@ switch (opcoes)
 {
 case 1:
      printf("População Carta 1 x População Carta 2\n");
+     
+     if (populacao1 > populacao2){
+        printf("### Carta 1 Venceu!! ###");
+    } else if (populacao1 == populacao2){
+        printf("### Houve Empate!! ###");
+    }else
+    {
+        printf("### Carta 2 Venceu ###");
+    }
     break;
-    
 
 
 case 2:
      printf("Area Carta 1 x Area Carta 2\n");
+     if (area1 > area2){
+        printf("### Carta 1 Venceu!! ###");
+    } else if (area1 == area2){
+        printf("### Houve Empate!! ###");
+    }else
+    {
+        printf("### Carta 2 Venceu ###");
+    }
      break;
 case 3:
      printf("Pib Carta 1 x Pib Carta 2\n");
+     if (pib1 > pib2){
+        printf("### Carta 1 Venceu!! ###");
+    } else if (pib1 == pib2){
+        printf("### Houve Empate!! ###");
+    }else
+    {
+        printf("### Carta 2 Venceu ###");
+    }
      break;
 case 4:
      printf("Pontos Turisticos Carta 1 x Pontos Turisticos Carta 2\n");
+     if (pontos1 > pontos2){
+        printf("### Carta 1 Venceu!! ###");
+    } else if (pontos1 == pontos2){
+        printf("### Houve Empate!! ###");
+    }else
+    {
+        printf("### Carta 2 Venceu ###");
+    }
 default:
      printf("**Opção Invalida***\n");
     break;
 }
-
-if (populacao1 > populacao2){
-    printf("### Carta 1 Venceu!! ###");
-} else if (populacao1 == populacao2){
-    printf("### Houve Empate!! ###");
-}else
-{
-    printf("### Carta 2 Venceu ###");
-}
-if (area1 > area2){
-    printf("### Carta 1 Venceu!! ###");
-} else if (area1 == area2){
-    printf("### Houve Empate!! ###");
-}else
-{
-    printf("### Carta 2 Venceu ###");
-}
-if (pontos1 > pontos2){
-    printf("### Carta 1 Venceu!! ###");
-} else if (pontos1 == pontos2){
-    printf("### Houve Empate!! ###");
-}else
-{
-    printf("### Carta 2 Venceu ###");
-}
-if (pib1 > pib2){
-    printf("### Carta 1 Venceu!! ###");
-} else if (pib1 == pib2){
-    printf("### Houve Empate!! ###");
-}else
-{
-    printf("### Carta 2 Venceu ###");
-}
-
-
-
-
-
-    return 0;
+ return 0;
 }
