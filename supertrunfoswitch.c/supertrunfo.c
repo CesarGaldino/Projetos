@@ -50,12 +50,12 @@ case 1:
      printf("População Carta 2: %d bilhões\n",populacao2);
 
      if (populacao1 > populacao2){
-        printf("### Carta 1 Venceu!! ###");
+        printf("### Carta 1 Brasil Venceu!! ###");
     } else if (populacao1 == populacao2){
         printf("### Houve Empate!! ###");
     }else
     {
-        printf("### Carta 2 Venceu ###");
+        printf("### Carta 2 Argentina Venceu ###");
     }
     break;
 
@@ -66,12 +66,12 @@ case 2:
      printf(" Area Carta 2: %.2f km²\n", area2);
 
     if (area1 > area2){
-        printf("### Carta 1 Venceu!! ###");
+        printf("### Carta 1 Brasil Venceu!! ###");
     } else if (area1 == area2){
         printf("### Houve Empate!! ###");
     }else
     {
-        printf("### Carta 2 Venceu ###");
+        printf("### Carta 2 Argentina Venceu ###");
     }
      break;
 case 3:
@@ -80,12 +80,12 @@ case 3:
      printf(" PIB Carta 2: %.2f \n",pib2);
 
      if (pib1 > pib2){
-        printf("### Carta 1 Venceu!! ###");
+        printf("### Carta 1  Brasil Venceu!! ###");
     } else if (pib1 == pib2){
         printf("### Houve Empate!! ###");
     }else
     {
-        printf("### Carta 2 Venceu ###");
+        printf("### Carta 2  Argentina Venceu ###");
     }
      break;
 case 4:
@@ -94,12 +94,12 @@ case 4:
      printf(" Pontos Turisticos Carta 2: %d \n",pontos2);
 
      if (pontos1 > pontos2){
-        printf("### Carta 1 Venceu!! ###");
+        printf("### Carta 1 Brasil Venceu!! ###");
     } else if (pontos1 == pontos2){
         printf("### Houve Empate!! ###");
     }else
     {
-        printf("### Carta 2 Venceu ###");
+        printf("### Carta 2 Argentina Venceu ###");
     }
     case 5:
      printf("*** Densidade Carta 1 x Densidade Carta 2 ***\n");
@@ -108,12 +108,12 @@ case 4:
 
      
      if (densidade1 < densidade2){
-        printf("### Carta 1 Venceu!! ###");
+        printf("### Carta 1 Brasil Venceu!! ###");
     } else if (densidade1 == densidade2){
         printf("### Houve Empate!! ###");
     }else
     {
-        printf("### Carta 2 Venceu ###");
+        printf("### Carta 2 Argentina Venceu ###");
     }
     break;
 default:
