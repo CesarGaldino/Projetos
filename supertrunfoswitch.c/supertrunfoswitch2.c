@@ -80,7 +80,7 @@ resultado1 = densidade1 < densidade2 ? 1 : 0;
 default:
     break;
 }
-printf( "Escolha o Primeiro Atributo: \n");
+printf( "Escolha o Segundo Atributo: \n");
 printf(" Atenção Você deve escolher um Atriubuto diferente do primeiro \n");
 printf(" 1. População\n");
 printf(" 2. Àrea\n");
@@ -88,7 +88,7 @@ printf(" 3. PIB\n");
 printf(" 4. Pontos Turísticos\n");
 printf(" 5. Densidade\n");
 printf(" Escolha a Comparação : \n");
-scanf("d",atributo2);
+scanf("%d",&atributo2);
 
 if (atributo1 == atributo2)
 {
@@ -118,11 +118,9 @@ if (atributo1 == atributo2)
     printf("Você Escolheu Densidade!\n");
     resultado2 = densidade1 < densidade2 ? 1 : 0;
         break;
-      
-      
       default:
         break;
-        if (resultado1 && resultado2)
+      }if (resultado1 && resultado2)
         {
             printf(" Parabens Você Venceu !!\n");
         }else if (resultado1 != resultado2)
@@ -133,13 +131,12 @@ if (atributo1 == atributo2)
             printf("Você Perdeu\n");
         }
         
+    return 0;    
         
-        
-      }
+    }
 
 
 
-}
+
 
  
-}
