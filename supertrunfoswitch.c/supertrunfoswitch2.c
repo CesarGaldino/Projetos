@@ -94,7 +94,7 @@ if (atributo1 == atributo2)
 {
     printf("Você Escolheu o mesmo Atributo\n");
 
-}else{
+}
       switch (atributo2)
       {
     case 1:
@@ -119,6 +119,7 @@ if (atributo1 == atributo2)
     resultado2 = densidade1 < densidade2 ? 1 : 0;
         break;
       default:
+      printf("OPÇAO INVALIDA !! \n");
         break;
       }if (resultado1 && resultado2)
         {
