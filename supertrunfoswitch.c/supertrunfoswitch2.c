@@ -123,13 +123,13 @@ if (atributo1 == atributo2)
         break;
       }if (resultado1 && resultado2)
         {
-            printf(" Parabens Você Venceu !!\n");
+            printf(" Parabens Carta 1 (Brasil) Venceu !!\n");
         }else if (resultado1 != resultado2)
         {
-           printf(" Você Empatou !!\n");
+           printf(" Houve um Empate !!\n");
         }else
         {
-            printf("Você Perdeu\n");
+            printf("Carta 2 (Argentina) Venceu\n");
         }
         
     return 0;    
