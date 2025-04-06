@@ -1,35 +1,53 @@
 #include<stdio.h>
 
 int main(){
+int i = 1;
+int j = 1;
 
- int numero;
+printf("## Desafio Movimentado as Peças do Xadres ##\n");
+printf(" Bispo : \n");
+//Bispo mover 5 casas na diagonal Direita(Cima , Direita).
+do{
+    printf("%d Cima\n", i);
+    printf("%d Direita\n", i);
+    i++;
+} while (i <= 5);
+
+printf(" Rainha : \n");
+//Rainha mover 8 casas para esquerda.
+while (j <= 8)
+{
+    printf("%d Esquerda\n", j);
+    j++;
+}
+
+printf(" Torre : \n");
+//Torre mover 5 Casas para Direita.
+for (int i = 1; i <= 5; i++)
+{
+    printf("%d Direita\n", i);
+}
 
 
- do
- {
-    printf("Digite um numero par para sair do Programa..\n");
-    scanf("%d", &numero);
 
-    if (numero %2 == 0)
-    {
-      printf("Esse Número %d é Par\n", numero);
 
-    }else
-    {
-      printf("Esse Número %d é Impar\n", numero);
-    }
-    
+
+
+
+
+
+
+
+ 
+ 
+ 
 
    
     
     
     
     
- } while (numero % 2 != 0);
  
-
-printf("Você Digitou um numero Par, Saindo do programa ...\n");
-
 
 
 
