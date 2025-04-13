@@ -32,12 +32,12 @@ for (int i = 1; i <= 5; i++)
 //Cavalo mover baixo, baixo, esquerda
 
     printf("Cavalo : \n");
-int movimento = 1;
-    for (int i = 1; i <= 2; i++){
-        while (movimento <= 2){
-            printf("%d Baixo\n, %d Esquerda",i * movimento);
-            movimento++;
-        }
+
+    for (int i = 0; i <= 0; i++){
+       for ( int j = 1; j <= 2; j++){
+        printf("Baixo\n");
+       }
+       printf("Esquerda\n");
        }
         
 
