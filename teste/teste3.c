@@ -29,7 +29,7 @@ for (int i = 1; i <= 5; i++)
 }
 
 
-//Cavalo mover baixo, baixo, esquerda
+//Cavalo mover baixo,  esquerda
 
     printf("Cavalo : \n");
 
